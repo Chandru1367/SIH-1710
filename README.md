@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 29.05.2026
+## Register Number: 212224230041
+## Name: Chandru M
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,90 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+The idea is to develop a Smart Railway Station Navigation System that helps passengers easily navigate inside railway stations using:
 
+1. 3D Interactive Maps
+2. Indoor Navigation
+3. Voice Guidance
+4. Real-Time Route Updates
+5. QR-Based Navigation
+6. Accessibility Support for Disabled Passengers
+7. Digital Kiosk Assistance
+
+
+The system will provide accurate directions to platforms, ticket counters, restrooms, waiting halls, food courts, exits, elevators, and emergency services through mobile applications and digital kiosks.
 
 ## Proposed Solution / Architecture Diagram
 
+<img width="3932" height="919" alt="sih" src="https://github.com/user-attachments/assets/acf6fe24-8b97-4b38-921d-01e0c7924fe7" />
 
 ## Use Cases
+
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/293c2526-f1c5-4782-bf15-cd2e2f60a764" />
 
 
 ## Technology Stack
 
+| Component            | Technology                      |
+| -------------------- | ------------------------------- |
+| Frontend             | React Native / Flutter          |
+| Backend              | Node.js / Express               |
+| Database             | MongoDB                         |
+| Indoor Navigation    | BLE Beacons + Wi-Fi Positioning |
+| Maps & Visualization | Three.js / Unity 3D             |
+| Authentication       | Firebase Auth                   |
+| Real-Time Updates    | Firebase / WebSockets           |
+| Voice Assistance     | Google Speech API               |
+| Cloud Platform       | AWS / Azure                     |
+| QR Navigation        | QR Code APIs                    |
+
 
 ## Dependencies
 
+## Frontend Dependencies
+
+React Native / Flutter
+
+React Navigation
+
+Axios
+
+Three.js
+
+Firebase SDK
+
+QR Scanner Library
+
+## Backend Dependencies
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+Socket.IO
+
+JWT Authentication
+
+## Navigation & Accessibility
+
+BLE Beacon SDK
+
+Google Maps SDK
+
+Speech-to-Text API
+
+Text-to-Speech API
+
+## Cloud & Deployment
+
+Firebase
+
+AWS / Azure
+
+Docker
+
+GitHub Actions
